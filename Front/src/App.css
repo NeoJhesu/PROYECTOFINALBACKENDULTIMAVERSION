@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lunasima', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-image: url("../public/Mikunakano.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+a{
+    text-decoration: none;
+}
+.centrarPantalla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60.4vh;
+}
+
+.centrar {
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 54px;
+}
+
+
+.centrarvacia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 47.3vh;
+    color: white;
+}

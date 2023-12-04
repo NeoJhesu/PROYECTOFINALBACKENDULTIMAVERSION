@@ -1,0 +1,43 @@
+form {
+    width: 345px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    background-color: white;
+    color: black;
+    font-size: 14px;
+}
+
+.nombre {
+    text-align: center;
+    margin: 20px;
+}
+
+.nuevoProducto {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.nuevoProducto label {
+    font-weight: bold;
+}
+
+.nuevoProducto input,
+.nuevoProducto textarea {
+    padding: 7px;
+    border: 1px solid #363131;
+    border-radius: 4px;
+    font-size: 13px;
+}
+.nuevoProducto input[type="number"] {
+    width: 75px;
+    margin: 7PX;
+
+}
+.nuevoProducto input[type="submit"] {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}

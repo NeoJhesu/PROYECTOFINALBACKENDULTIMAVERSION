@@ -1,0 +1,83 @@
+.megacontenedor {
+    text-align: center;
+    justify-content: center;
+    margin: 1vw;
+    padding: 0 10vw;
+    color: white;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Producto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .descripcion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5vw;
+        gap: 15vw;
+    }
+    .botonCompra {
+        width: 320px;
+        height: 40px;
+        background-color: #4A55A2;
+        border-radius: 10px;
+        color: white;
+        transition: transform 0.3s ease-in-out;
+        font-size: 12px;
+    }
+    
+    .botonCompra:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
+    
+    .botonVariable{
+        width:30px;
+        height: 30px;
+        background-color: #4A55A2;
+        border-radius: 50px;
+        margin: 5px;
+        color: white;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .botonVariable:hover {
+        transform: scale(1.1);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
+
+    .stock{
+        display: flex;
+        flex-direction: column;
+        gap: 10px   ;
+    }
+    .botones{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    
+@media (max-width: 864px) {
+    .descripcion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5vw;
+        gap: 2vw;
+    }
+}

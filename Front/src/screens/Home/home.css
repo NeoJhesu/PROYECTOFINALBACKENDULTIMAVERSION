@@ -1,0 +1,77 @@
+.catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px;
+}
+
+.catalogo div {
+  width: 270px;
+  height: 350px; 
+  margin: 15px;
+  padding: 20px;
+  background: linear-gradient(135deg, #2f3640, #486cb4);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+  color: white;
+}
+
+.catalogo div:hover {
+  box-shadow: 0 10px 30px rgba(255,255,255,0.6);
+  transform: translateY(-2px);
+}
+
+.catalogo img {
+  max-width: 100%;
+  filter: grayscale(100%);
+  transition: all 0.5s ease;
+}
+
+.catalogo img:hover {
+  filter: grayscale(0);
+}
+
+.catalogo h3 {
+  align-items: center;
+  margin-top: 10px;
+}
+
+.catalogo span {
+  display: block;
+  margin-top: 5px;
+}
+
+
+.creacion{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 25px;
+  margin: 20px;
+}
+.creacion a {
+  color: rgb(218, 13, 13); 
+  padding: 3px 10px;
+  border-radius: 7px;
+  font-size: 20px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+  transition: all 0.5s ease;
+  font-size: 25px;
+}
+
+.creacion a:hover {
+  background: linear-gradient(90deg, #171e24, #214644);
+  color: white;
+  animation: glow 2s infinite;
+}
+
+@keyframes glow {
+  0% { background-position: -50px; }
+  50% { background-position: 100%;}
+  100% { background-position: -50px;}
+}
